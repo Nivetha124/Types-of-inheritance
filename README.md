@@ -58,4 +58,19 @@ grandparent(base) , parent(intermediate), child(derived)
          obj.edisplay()
 
 # MULTIPLE INHERITANCE
-  two base class have only one derived class
+  two base class both have one Or more derived class
+  # Real time example:
+     * A class that inherits from both a "VEHICLE" class and an "ELECTRICITY-POWERED" class, to create a new class called "ELECTRIC VEHICLE". This class would have access to both the properties and methods of its parent classes.
+     * OWNER class and HOUSE class to create a new class called RENTAL.
+     * CAR class and BUS class to create a new class called VEHICLE.
+     eg:
+     class Father:
+        def display(slef):
+            print("father")
+    class Mother:
+       def mdisplay(self):
+           print("mother")
+    class son(Father,Mother):
+       def sdisplay(self):
+           print("son")
+  
